@@ -496,7 +496,7 @@ function App() {
 
       <a
         className="footer-contact-item"
-        href="https://github.com/"
+        href="https://github.com/Anijulitha"
         target="_blank"
         rel="noreferrer"
       >
