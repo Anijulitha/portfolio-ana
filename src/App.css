@@ -1657,3 +1657,63 @@ button.project-link:hover {
   opacity: 1;
   visibility: visible;
 }
+
+
+
+.footer-cv {
+  margin-top: 38px;
+  width: 100%;
+}
+
+.footer-cv-heading {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 18px;
+}
+
+.cv-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.cv-group {
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.cv-group h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 18px;
+  color: #fff;
+}
+
+.cv-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cv-links a {
+  color: #c5b8ff;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.cv-links a:hover {
+  color: #fff;
+}
+
+.cv-links a span {
+  margin-left: 4px;
+}
+
+@media (max-width: 600px) {
+  .cv-groups {
+    grid-template-columns: 1fr;
+  }
+}

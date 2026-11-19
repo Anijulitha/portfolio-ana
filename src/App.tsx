@@ -444,27 +444,39 @@ function App() {
         Hablemos <span>↗</span>
       </a>
 
+      
       <div className="footer-cv">
         <p className="footer-cv-heading">
           ¿Quieres conocer mi experiencia?
         </p>
 
-        <a
-          href="/cv-ana-pelaez-es.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          CV en español <span>↗</span>
-        </a>
+        <div className="cv-groups">
+          <div className="cv-group">
+            <h4>Desarrollo de software</h4>
+            <div className="cv-links">
+              <a href="/cv-ana-pelaez-es.pdf" target="_blank" rel="noreferrer">
+                Español <span>↗</span>
+              </a>
+              <a href="/cv-ana-pelaez-en.pdf" target="_blank" rel="noreferrer">
+                English <span>↗</span>
+              </a>
+            </div>
+          </div>
 
-        <a
-          href="/cv-ana-pelaez-en.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          CV in English <span>↗</span>
-        </a>
+          <div className="cv-group">
+            <h4>Ciencia de datos e IA</h4>
+            <div className="cv-links">
+              <a href="/cv-ana-datos-es.pdf" target="_blank" rel="noreferrer">
+                Español <span>↗</span>
+              </a>
+              <a href="/cv-ana-datos-en.pdf" target="_blank" rel="noreferrer">
+                English <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+
 
     </div>
 
